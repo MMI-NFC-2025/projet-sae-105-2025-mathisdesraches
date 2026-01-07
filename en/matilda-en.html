@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Behind the Mirror | The Matilda Effect</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS global -->
+    <link rel="stylesheet" href="../../src/css/variables.css" />
+    <link rel="stylesheet" href="../../src/css/base.css" />
+    <link rel="stylesheet" href="../../src/css/layout.css" />
+    <link rel="stylesheet" href="../../src/css/components.css" />
+    <link rel="stylesheet" href="../../src/css/menu.css" />
+
+    <!-- CSS page -->
+    <link rel="stylesheet" href="../../src/css/matilda.css" />
+  </head>
+
+  <body>
+    <!-- ================= MENU OVERLAY ================= -->
+    <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+      <div class="menu-panel" role="dialog" aria-modal="true" aria-label="Menu">
+        <header class="menu-header">
+          <div class="menu-spacer"></div>
+
+          <div class="menu-brand">
+            <img src="../../assets/img/logo2.webp" alt="Behind Mirror logo" />
+          </div>
+
+          <button class="menu-close" type="button" id="menuClose" aria-label="Close menu">
+            CLOSE
+          </button>
+        </header>
+
+        <nav class="menu-nav" aria-label="Main navigation">
+          <a href="../../index.html">HOME</a>
+          <a href="../../dorothy.html">DOROTHY LEVITT</a>
+          <a href="../../matilda.html">THE MATILDA EFFECT</a>
+          <a href="#">WOMEN IN SCIENCE IN LITERATURE</a>
+          <a href="#">THE REARVIEW MIRROR</a>
+          <a href="#">FILMS &amp; SERIES</a>
+          <a href="#">FEMINISM</a>
+        </nav>
+
+        <div class="menu-divider" aria-hidden="true"></div>
+
+        <nav class="menu-nav menu-nav--secondary" aria-label="Secondary navigation">
+          <a href="../../contact.html">CONTACT</a>
+          <a href="#">ABOUT</a>
+          <a href="../../projets.html">OTHER PROJECTS</a>
+        </nav>
+      </div>
+    </div>
+    <!-- ================= END MENU OVERLAY ================= -->
+
+    <div class="page">
+      <!-- Topbar -->
+      <header class="topbar">
+        <a href="../../index.html" class="brand" aria-label="Back to home">
+          <img src="../../assets/img/logo1.webp" alt="Behind Mirror logo" />
+        </a>
+
+        <div class="top-actions">
+          <a class="lang" href="/fr/matilda.html" aria-label="Change language">EN/FR</a>
+          <button class="burger" aria-label="Open menu">
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- ================= MATILDA PAGE ================= -->
+      <main class="matilda">
+        <!-- Hero -->
+        <header class="matilda-hero">
+          <h1 class="matilda-title">
+            <span class="matilda-title__script">The</span>
+            <span class="matilda-title__bold">MATILDA EFFECT</span>
+          </h1>
+
+          <div class="matilda-hero__media">
+            <img
+              class="matilda-hero__img"
+              src="../../assets/img/matilda.webp"
+              alt="Portrait illustrating the Matilda Effect"
+            />
+          </div>
+
+          <p class="matilda-intro">
+            The Matilda Effect refers to the invisibilization of women in research, discovery,
+            and invention, whose contributions are minimized, forgotten, or attributed to men.
+          </p>
+        </header>
+
+        <!-- Block 1 -->
+        <section class="matilda-section">
+          <h2>An idea born from an activist<br />and a historian</h2>
+          <p>
+            The term was popularized by historian of science Margaret W. Rossiter in the 1990s,
+            in reference to Matilda Joslyn Gage, a 19th-century feminist activist.
+          </p>
+
+          <blockquote class="quote-red">
+            “The history of science has long been written in the masculine.”
+            <span class="quote-red__cite">Margaret W. Rossiter</span>
+          </blockquote>
+        </section>
+
+        <!-- Block 2 -->
+        <section class="matilda-section">
+          <h2>From discovery<br />to erasure</h2>
+          <p>
+            The Matilda Effect does not describe only forgetting. It also describes the mechanism:
+            networks, institutions, publications, public recognition, awards… an entire system
+            can shift credit away from its rightful author.
+          </p>
+          <ul class="matilda-bullets">
+            <li>Co-signed work, but credit given to a man</li>
+            <li>Discoveries attributed to a colleague/mentor</li>
+            <li>Lack of citations, positions, and awards</li>
+          </ul>
+        </section>
+
+        <!-- Block 3 -->
+        <section class="matilda-section">
+          <h2>Dorothy Levitt, a “Matilda”<br />of speed</h2>
+          <p>
+            Dorothy Levitt popularized the use of a mirror to see behind you, but the history
+            of the rearview mirror was long told without her.
+          </p>
+
+          <blockquote class="quote-red">
+            “Some inventions become obvious, and their creators disappear.”
+            <span class="quote-red__cite">Editorial summary</span>
+          </blockquote>
+        </section>
+
+        <!-- Block 4 -->
+        <section class="matilda-section">
+          <h2>Breaking the silence: toward<br />recognition</h2>
+          <p>
+            Rehabilitating these lives means rewriting the collective narrative.
+            The Matilda Effect is also a tool to understand, document, and repair.
+          </p>
+        </section>
+
+        <!-- ================= TIMELINE ================= -->
+        <section class="matilda-timeline">
+          <h2 class="matilda-timeline__title">“Matildas” through time</h2>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <img class="timeline-avatar" src="../../assets/img/dorothy.webp" alt="Dorothy Levitt" />
+              <div class="timeline-content">
+                <h3>Dorothy LEVITT</h3>
+                <p>1882 – 1922</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <img class="timeline-avatar" src="../../assets/img/lise.webp" alt="Lise Meitner" />
+              <div class="timeline-content">
+                <h3>Lise MEITNER</h3>
+                <p>1878 – 1968</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <img class="timeline-avatar" src="../../assets/img/hedi.webp" alt="Hedy Lamarr" />
+              <div class="timeline-content">
+                <h3>Hedy LAMARR</h3>
+                <p>1914 – 2000</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <img class="timeline-avatar" src="../../assets/img/katherine.webp" alt="Katherine Johnson" />
+              <div class="timeline-content">
+                <h3>Katherine JOHNSON</h3>
+                <p>1918 – 2020</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- ================= GLOSSARY ================= -->
+        <section class="matilda-index">
+          <h2 class="matilda-index__title">GLOSSARY</h2>
+
+          <div class="matilda-cards">
+            <article class="mini-card">
+              <h3>The Matilda Effect</h3>
+              <p>
+                A phenomenon described by historian Margaret Rossiter. It refers to the tendency
+                to attribute discoveries or inventions made by women to their male colleagues.
+                The term honors Matilda Joslyn Gage, a 19th-century American feminist activist.
+              </p>
+            </article>
+
+            <article class="mini-card">
+              <h3>Rearview mirror</h3>
+              <p>
+                An object that allows a driver to see behind their vehicle. Inspired by Dorothy
+                Levitt’s idea in 1909, long before it became a standard feature in automobiles.
+                Here, it symbolizes memory and lucidity in the face of History.
+              </p>
+            </article>
+
+            <article class="mini-card">
+              <h3>Feminism</h3>
+              <p>
+                A social, political, and intellectual movement aiming to achieve equality between
+                women and men. In your project, it is embodied notably by Andrée Michel, sociologist
+                and author of the book <em>Le Féminisme</em> (1971).
+              </p>
+            </article>
+
+            <article class="mini-card">
+              <h3>Invisibilization</h3>
+              <p>
+                A process through which people or groups are erased from collective memory.
+                In science, it often refers to women whose work was forgotten or credited to others.
+              </p>
+            </article>
+
+            <article class="mini-card">
+              <h3>Pioneers</h3>
+              <p>
+                A term describing a woman who opens the way in a field previously reserved for men.
+                Every woman presented in Behind the Mirror, from Dorothy Levitt to Katherine Johnson,
+                embodies this word.
+              </p>
+            </article>
+
+            <article class="mini-card">
+              <h3>STEM</h3>
+              <p>
+                Acronym for Science, Technology, Engineering, and Mathematics. It refers to fields
+                where women are still underrepresented, even though their contributions are essential.
+              </p>
+            </article>
+
+            <article class="mini-card">
+              <h3>Andrée Michel</h3>
+              <p>
+                French sociologist (1920–2022) who studied gender inequalities and power relations
+                in society. Her book <em>Le Féminisme</em> is a foundational text for the intellectual
+                recognition of the feminist movement.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="matilda-readalso">
+          <h3>READ ALSO</h3>
+          <ul>
+            <li><a href="../../dorothy.html">→ Dorothy Levitt</a></li>
+            <li><a href="#">→ The rearview mirror</a></li>
+            <li><a href="#">→ Feminism</a></li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <a href="../../index.html" class="footer__brand" aria-label="Back to home">
+          <img src="../../assets/img/logo3.webp" alt="Behind Mirror logo" />
+        </a>
+
+        <p class="footer__text">
+          Behind the Mirror is an editorial project that highlights women
+          erased from the history of science, invention, and culture.
+        </p>
+
+        <h3 class="footer__title">Explore</h3>
+
+        <nav class="footer__links">
+          <a href="#">Dorothy Levitt</a>
+          <a href="#">The Matilda Effect</a>
+          <a href="#">Women in science</a>
+          <a href="#">The rearview mirror</a>
+          <a href="#">Films &amp; series</a>
+          <a href="#">Feminism</a>
+        </nav>
+
+        <div class="legal">
+          <a href="/fr/contact.html">Contact</a>
+          <a href="#">Legal notice</a>
+          <a href="#">About</a>
+          <a href="/fr/projets.html">Other projects</a>
+        </div>
+
+        <div class="footer__signature">
+          © 2026 — Behind the Mirror · All rights reserved
+        </div>
+      </footer>
+    </div>
+
+    <!-- JS menu -->
+    <script src="../../src/js/menu.js"></script>
+  </body>
+</html>
