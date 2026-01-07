@@ -1,0 +1,180 @@
+/* Page article Dorothy Levitt */
+.article {
+    padding: 0 14px 56px; /* respiration avant footer */
+  }
+  
+  /* Titre comme la home */
+  .article-title {
+    margin: 14px 0 10px;
+    line-height: 0.95;
+    text-align: left;
+  }
+  
+  .article-title__script {
+    display: block;
+    font-family: "Great Vibes", cursive;
+    font-size: 44px;
+    color: var(--accent);
+    transform: translateY(10px);
+  }
+  
+  .article-title__bold {
+    display: block;
+    font-family: Montserrat, Inter, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    font-size: 44px;
+  }
+  
+  /* Hero */
+  .article-hero {
+    padding-top: 10px;
+    position: relative;
+  }
+  
+  .article-portrait-wrap {
+    position: absolute;
+    top: 20px;
+    right: -95px;
+  }
+  
+  .article-portrait {
+    width: 310px;
+    height: 310px;
+    border-radius: 999px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Intro */
+  .article-intro {
+    margin-top: 250px;
+    font-size: 12px;
+    line-height: 1.65;
+    color: #2a2522;
+    max-width: 340px; /* effet colonne */
+  }
+  
+  /* Sections */
+  .article-section {
+    padding-top: 22px;
+  }
+  
+  .article-section h2 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #111;
+  }
+  
+  .article-section p {
+    margin: 0 0 12px;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #2a2522;
+  }
+  
+  /* Citations */
+.article-quote {
+    margin: 22px 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+  
+    color: var(--accent);     
+    font-weight: 900;       
+    font-style: normal;      
+    font-size: 13px;
+    line-height: 1.75;
+  }
+  
+ 
+  .article-quote__cite {
+    display: block;
+    margin-top: 10px;
+  
+    color: var(--accent);
+    font-weight: 800;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  
+  
+  .article-quote--small {
+    margin-top: 18px;
+    font-size: 12.5px;
+    font-weight: 900;
+  }
+  
+  
+  /* Figure image + légende */
+  .article-figure {
+    margin: 18px 0 0;
+  }
+  
+  .article-figure__img {
+    width: 100%;
+    display: block;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+  
+  .article-figure__cap {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 700;
+  }
+  
+  /* Lire aussi */
+  .article-readalso {
+    padding-top: 18px;
+  }
+  
+  .article-readalso h3 {
+    margin: 0 0 12px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.65);
+  }
+  
+  .article-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+  }
+  
+  .article-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+  
+  .article-links a:active {
+    transform: translateY(1px);
+  }
+  
+  /* Petit confort de lecture sur grands écrans */
+  @media (min-width: 480px) {
+    .article {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  
+    .article-portrait {
+      width: 240px;
+      height: 240px;
+    }
+  }
+  

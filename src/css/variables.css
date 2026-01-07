@@ -1,0 +1,16 @@
+:root {
+    --bg: #f3e8e1;
+    --ink: #151515;
+    --muted: #6f6661;
+    --card: #f6ede7;
+    --footer: #111111;
+  
+    --accent: #7b2a21;
+    --accent-2: #a53a2e;
+  
+    --shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    --radius: 20px;
+  
+    --page-max: 420px;
+  }
+  
