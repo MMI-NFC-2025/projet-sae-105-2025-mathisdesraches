@@ -6,5 +6,5 @@
 - NOM : DESRACHES
 - PRÉNOM : Mathis
 - GROUPE : C1
-- URL du site :
-- URL FIGMA :
+- URL du site : dorothy-levitt.mathis-desraches.fr
+- URL FIGMA : https://www.figma.com/design/VTtfajEOAw7pECk7G7IMXs/PROJET-INDIVIDUEL?node-id=96-318&t=M4Dp5OzGu8bCH1IE-1

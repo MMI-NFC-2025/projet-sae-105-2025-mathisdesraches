@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Behind the Mirror | Contact</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS global -->
+    <link rel="stylesheet" href="../../src/css/variables.css" />
+    <link rel="stylesheet" href="../../src/css/base.css" />
+    <link rel="stylesheet" href="../../src/css/layout.css" />
+    <link rel="stylesheet" href="../../src/css/components.css" />
+    <link rel="stylesheet" href="../../src/css/menu.css" />
+
+    <!-- CSS page -->
+    <link rel="stylesheet" href="../../src/css/contact.css" />
+  </head>
+
+  <body>
+    <!-- ================= MENU OVERLAY ================= -->
+    <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+      <div class="menu-panel" role="dialog" aria-modal="true" aria-label="Menu">
+        <header class="menu-header">
+          <div class="menu-spacer"></div>
+
+          <div class="menu-brand">
+            <img src="../../assets/img/logo2.webp" alt="Logo Behind Mirror" />
+          </div>
+
+          <button class="menu-close" type="button" id="menuClose" aria-label="Fermer le menu">
+            FERMER
+          </button>
+        </header>
+
+        <nav class="menu-nav" aria-label="Navigation principale">
+          <a href="../../index.html">ACCUEIL</a>
+          <a href="../fr/dorothy.html">DOROTHY LEVITT</a>
+          <a href="../fr/matilda.html">L’EFFET MATILDA</a>
+          <a href="#">LES FEMMES DE SCIENCE DANS LA LITTÉRATURE</a>
+          <a href="#">LE RÉTROVISEUR</a>
+          <a href="#">FILMS &amp; SÉRIES</a>
+          <a href="#">LE FÉMINISME</a>
+        </nav>
+
+        <div class="menu-divider" aria-hidden="true"></div>
+
+        <nav class="menu-nav menu-nav--secondary" aria-label="Navigation secondaire">
+          <a href="./contact.html">CONTACT</a>
+          <a href="#">À PROPOS</a>
+          <a href="./projets.html">AUTRES PROJETS</a>
+        </nav>
+      </div>
+    </div>
+    <!-- ================= FIN MENU OVERLAY ================= -->
+
+    <div class="page">
+      <!-- Topbar -->
+      <header class="topbar">
+        <a href="../../index.html" class="brand" aria-label="Retour à l’accueil">
+          <img src="../../assets/img/logo1.webp" alt="Logo Behind Mirror" />
+        </a>
+
+        <div class="top-actions">
+          <a class="lang" href="#" aria-label="Changer de langue">EN/FR</a>
+          <button class="burger" aria-label="Ouvrir le menu">
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- ====== Contact ====== -->
+      <main class="contact">
+        <h1 class="contact-title">Formulaire de contact</h1>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label class="label" for="prenom">Prénom</label>
+            <input
+              class="input"
+              id="prenom"
+              name="prenom"
+              type="text"
+              placeholder="exemple : Lucas"
+              autocomplete="given-name"
+            />
+          </div>
+
+          <div class="field">
+            <label class="label" for="nom">Nom</label>
+            <input
+              class="input"
+              id="nom"
+              name="nom"
+              type="text"
+              placeholder="exemple : Moreau"
+              autocomplete="family-name"
+            />
+          </div>
+
+          <div class="field">
+            <label class="label" for="email">Email <span class="req">*</span></label>
+            <input
+              class="input"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="exemple : lucas22.moreau@..."
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label class="label" for="message">Message</label>
+            <textarea class="textarea" id="message" name="message" rows="7"></textarea>
+          </div>
+
+          <button class="send" type="submit">Envoyer</button>
+          <p class="note"><span class="req">*</span>champ obligatoire</p>
+        </form>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <a href="../../index.html" class="footer__brand" aria-label="Retour à l’accueil">
+          <img src="../../assets/img/logo3.webp" alt="Logo Behind Mirror" />
+        </a>
+
+        <p class="footer__text">
+          Behind the Mirror est un projet éditorial qui met en lumière les femmes
+          invisibilisées par l’histoire des sciences, des inventions et de la culture.
+        </p>
+
+        <h3 class="footer__title">Explorer</h3>
+
+        <nav class="footer__links">
+          <a href="#">Dorothy Levitt</a>
+          <a href="#">L’effet Matilda</a>
+          <a href="#">Femmes de science</a>
+          <a href="#">Le rétroviseur</a>
+          <a href="#">Films &amp; séries</a>
+          <a href="#">Le féminisme</a>
+        </nav>
+
+        <div class="legal">
+          <a href="/fr/contact.html">Contact</a>
+          <a href="#">Mentions légales</a>
+          <a href="#">À propos</a>
+          <a href="/fr/projets.html">Autres projets</a>
+        </div>
+
+        <div class="footer__signature">
+          © 2026 — Behind the Mirror · Tous droits réservés
+        </div>
+        
+      </footer>
+    </div>
+
+    <!-- JS menu -->
+    <script src="../../src/js/menu.js"></script>
+  </body>
+</html>
