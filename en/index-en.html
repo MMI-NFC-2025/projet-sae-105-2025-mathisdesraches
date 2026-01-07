@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Behind the Mirror | Dorothy Levitt</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../src/css/variables.css" />
+    <link rel="stylesheet" href="../../src/css/base.css" />
+    <link rel="stylesheet" href="../../src/css/layout.css" />
+    <link rel="stylesheet" href="../../src/css/components.css" />
+    <link rel="stylesheet" href="../../src/css/menu.css" />
+  </head>
+
+  <body>
+
+    <!-- ================= MENU OVERLAY ================= -->
+    <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+      <div class="menu-panel" role="dialog" aria-modal="true" aria-label="Menu">
+
+        <header class="menu-header">
+          <div class="menu-spacer"></div>
+
+          <div class="menu-brand">
+            <img src="../../assets/img/logo2.webp" alt="Behind Mirror logo" />
+          </div>
+
+          <button
+            class="menu-close"
+            type="button"
+            id="menuClose"
+            aria-label="Close menu"
+          >
+            CLOSE
+          </button>
+        </header>
+
+        <nav class="menu-nav" aria-label="Main navigation">
+          <a href="/en/index-en.html">HOME</a>
+          <a href="/en/dorothy.html">DOROTHY LEVITT</a>
+          <a href="/en/matilda.html">THE MATILDA EFFECT</a>
+          <a href="#">WOMEN IN SCIENCE & LITERATURE</a>
+          <a href="#">THE REARVIEW MIRROR</a>
+          <a href="#">FILMS & SERIES</a>
+          <a href="#">FEMINISM</a>
+        </nav>
+
+        <div class="menu-divider" aria-hidden="true"></div>
+
+        <nav class="menu-nav menu-nav--secondary" aria-label="Secondary navigation">
+          <a href="/en/contact.html">CONTACT</a>
+          <a href="#">ABOUT</a>
+          <a href="/en/projects.html">OTHER PROJECTS</a>
+        </nav>
+
+      </div>
+    </div>
+    <!-- =============== END MENU OVERLAY =============== -->
+
+    <!-- ================= PAGE ================= -->
+    <div class="page">
+
+      <!-- Topbar -->
+      <header class="topbar">
+        <a href="/en/index-en.html" class="brand" aria-label="Back to homepage">
+          <img src="../../assets/img/logo1.webp" alt="Behind Mirror logo" />
+        </a>
+
+        <div class="top-actions">
+          <a class="lang" href="/fr/index.html" aria-label="Change language">FR/EN</a>
+          <button class="burger" aria-label="Open menu">
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero">
+        <h1 class="hero-title">
+          <span class="hero-title__script">Dorothy</span>
+          <span class="hero-title__bold">LEVITT</span>
+        </h1>
+
+        <img
+          class="hero-illustration"
+          src="../../assets/img/home-dorothy.webp"
+          alt="Illustration of Dorothy Levitt"
+        />
+
+        <p class="quote">
+          “ When a woman invents,<br />
+          men take the credit. ”
+        </p>
+
+        <div class="down" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 5v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M7 14l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </section>
+
+      <!-- Intro -->
+      <section class="intro">
+        <p>
+          Dorothy Levitt was the first female racing driver (1903).
+          She invented the use of the rearview mirror in 1904, while driving.
+          Famous for illustrating what would later be called the Matilda Effect,
+          her contributions were long underestimated.
+        </p>
+      </section>
+
+      <!-- Feed -->
+      <main class="feed">
+
+        <article class="card">
+          <img class="card__media" src="../../assets/img/dorothy.webp" alt="Dorothy Levitt" />
+          <div class="card__body">
+            <h2 class="card__title">Dorothy Levitt, the fastest woman in the world</h2>
+            <p class="card__desc">
+              The first female racing driver, Dorothy Levitt challenged men and her era.
+            </p>
+            <a class="btn" href="/en/dorothy.html">Read more</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card__media" src="../../assets/img/matilda.webp" alt="The Matilda Effect" />
+          <div class="card__body">
+            <h2 class="card__title">The Matilda Effect: when women disappear</h2>
+            <p class="card__desc">
+              A phenomenon that erases women from the history of inventions.
+            </p>
+            <a class="btn" href="/en/matilda.html">Read more</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card__media" src="../../assets/img/science.webp" alt="Women in science" />
+          <div class="card__body">
+            <h2 class="card__title">Women in science through literature</h2>
+            <p class="card__desc">
+              Novels and biographies that restore justice to forgotten women.
+            </p>
+            <a class="btn" href="#">Read more</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card__media" src="../../assets/img/retroviseur.webp" alt="Rearview mirror" />
+          <div class="card__body">
+            <h2 class="card__title">The rearview mirror: a visionary invention</h2>
+            <p class="card__desc">
+              A simple idea that became essential, long erased from history.
+            </p>
+            <a class="btn" href="#">Read more</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card__media" src="../../assets/img/films.webp" alt="Films and series" />
+          <div class="card__body">
+            <h2 class="card__title">Films & series: women erased on screen</h2>
+            <p class="card__desc">
+              When cinema helps rehabilitate forgotten female figures.
+            </p>
+            <a class="btn" href="#">Read more</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card__media" src="../../assets/img/feminisme.webp" alt="Feminism" />
+          <div class="card__body">
+            <h2 class="card__title">Feminism, a book by Andrée Michel</h2>
+            <p class="card__desc">
+              A fundamental work on the recognition of women.
+            </p>
+            <a class="btn" href="#">Read more</a>
+          </div>
+        </article>
+
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <a href="/en/index-en.html" class="footer__brand" aria-label="Back to homepage">
+          <img src="../../assets/img/logo3.webp" alt="Behind Mirror logo" />
+        </a>
+
+        <p class="footer__text">
+          Behind the Mirror is an editorial project highlighting women
+          erased from the history of science, invention, and culture.
+        </p>
+
+        <h3 class="footer__title">Explore</h3>
+
+        <nav class="footer__links">
+          <a href="#">Dorothy Levitt</a>
+          <a href="#">The Matilda Effect</a>
+          <a href="#">Women in science</a>
+          <a href="#">The rearview mirror</a>
+          <a href="#">Films & series</a>
+          <a href="#">Feminism</a>
+        </nav>
+
+        <div class="legal">
+          <a href="/en/contact.html">Contact</a>
+          <a href="#">Legal notice</a>
+          <a href="#">About</a>
+          <a href="/en/projects.html">Other projects</a>
+        </div>
+
+        <div class="footer__signature">
+          © 2026 — Behind the Mirror · All rights reserved
+        </div>
+
+      </footer>
+
+    </div>
+    <!-- =============== END PAGE =============== -->
+
+    <!-- JS -->
+    <script src="../../src/js/menu.js"></script>
+
+  </body>
+</html>
