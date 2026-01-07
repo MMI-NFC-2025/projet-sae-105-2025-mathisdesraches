@@ -36,11 +36,12 @@
   }
   
   .matilda-hero__img {
-    width: 220px;
-    height: 220px;
+    width: 350px;
+    height: 350px;
     border-radius: 999px;
     object-fit: cover;
     display: block;
+    
   }
   
   .matilda-intro {
